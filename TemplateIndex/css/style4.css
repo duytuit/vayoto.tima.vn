@@ -1,0 +1,172 @@
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.pBox {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.card-dkvn {
+    border-radius: 1.25rem;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.bg-primary {
+    background-image: linear-gradient(#ff9401, #ff5318);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-secondary {
+    color: #fcff00 !important;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+
+.font-italic {
+    font-style: italic !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.form-control-lg {
+    height: calc(2.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 15px;
+}
+
+.form-control-lg, .form-control-sm {
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+.custom-select-default {
+    color: #6c757d;
+}
+
+.custom-select {
+    background-size: .75rem;
+    padding-right: 2.1875rem;
+}
+
+.custom-control-label:before, .custom-file-label, .custom-select {
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.custom-select-lg {
+    height: calc(2.5em + 1rem + 2px);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(2.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    vertical-align: middle;
+    background: #fff url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.243' height='12.243'%3E%3Cpath data-name='Path 34' d='M2.121 2.121l8 8 8-8' fill='none' stroke='%23f05123' stroke-linecap='round' stroke-width='3'/%3E%3C/svg%3E") no-repeat right .75rem center/8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+.btn-secondary {
+    color: #212529;
+    background-color: #fcff00;
+    border-color: #fcff00;
+}
+
+.btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
