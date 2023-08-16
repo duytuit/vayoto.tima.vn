@@ -1293,7 +1293,22 @@ a:link {
 .ladi-list-paragraph ul li.ladi-lazyload:before {
     background-image: none !important;
 }
-
+@media (min-width: 768px)
+{
+#BUTTON_TEXT263{
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+}
+.ladi-button > .ladi-element .ladi-headline {
+    display: table-cell;
+    vertical-align: middle;
+}
 @media (min-width:768px) {
     .ladi-fullwidth {
         width: 100vw !important;

@@ -7313,4 +7313,16 @@
             text-align: justify;
             line-height: 1.6;
         }
+        #_video { 
+            width: 80%;
+            height: 300px;
+         }
 }
+
+ @media only screen and (min-width: 600px) {
+    #_video { 
+       
+        width: 60%;
+        height: 500px;
+     }
+ }
